@@ -1,0 +1,20 @@
+OBSERVATIONS
+
+1. h1 -- My Gallery(heading)
+2.placed in centre
+3. Image & text <figure></figure>
+4. filter on Image
+5. shadow on Image
+6. text is visibel and invisible
+7. Responsive zoom in & out
+8. space between Images
+9. gradient
+10. dimension is same from left and right
+11. corner is rounded
+12. while hovering it is coming smmothly 
+13. while hovering image is getting zoomed out
+14. favicon 
+15.title
+16. overflow hidden
+17.container size fixed
+18. font-family
