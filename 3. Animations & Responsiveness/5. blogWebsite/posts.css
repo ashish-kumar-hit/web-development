@@ -4,12 +4,12 @@
     width: 510px;
     height: 700px;
     display: grid;
-    grid-template-rows: 30px 1fr 1fr 30px;
-    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 
     grid-template-areas: 
-    "hd"
+    "hd hd"
     "side main"
     "ft ft";
 }
