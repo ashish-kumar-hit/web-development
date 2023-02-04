@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid red;
+    height: 215px;
+}
+
+.box{
+    width: 212px;
+    height: 212px;
+    border: 1px solid green;
+    background-color: aqua;
+
+    animation-name: babbar;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes babbar{
+    0%{
+        width: 212px;
+        background-color: orange;
+    }
+
+    50%{
+        width: 50%;
+        background-color: white;
+    }
+
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
+/* @keyframes babbar{
+    from{
+        width: 212px;
+    }
+
+    to{
+        width: 800px;
+    }
+} */
