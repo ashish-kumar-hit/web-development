@@ -426,3 +426,104 @@ a {
   font-size: 16px;
   font-style: italic;
 }
+
+.btn-grp {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.btn-project:hover {
+  border: none;
+}
+
+.icon {
+  cursor: pointer;
+  color: white;
+  font-size: 35px;
+}
+
+.icon:hover {
+  color: var(--bgOrange);
+  transition: all 0.9s;
+}
+
+.project-card:hover .project-content {
+  transform: scale(1.1);
+}
+
+#project1 {
+  background-image: url(./images/projects/Project1.png);
+}
+
+#project2 {
+  margin-left: 120px;
+  background-image: url(./images/projects/Project2.png);
+}
+
+#project3 {
+  background-image: url(./images/projects/Project3.png);
+}
+
+#project4 {
+  margin-left: 120px;
+  background-image: url(./images/projects/Project4.png);
+}
+
+/* Media Quaries */
+@media (max-width: 1300px) {
+  .page-header {
+    padding-top: 30px;
+    color: var(--bgOrange);
+    text-align: center;
+    font-size: 40px;
+  }
+  .project-container {
+    padding: 5px;
+    margin: 10px;
+    gap: 60px;
+  }
+  .project-card {
+    width: 100%;
+    height: 300px;
+  }
+  .project-card {
+    background-size: cover;
+    background-position: center;
+  }
+  .project-content {
+    scale: 0.5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .project-content-left {
+    left: 0;
+  }
+  .project-heading {
+    font-size: 40px;
+    width: 100%;
+  }
+  .project-sub-heading {
+    width: 100%;
+  }
+  #project2 {
+    margin-left: 0;
+  }
+  #project4 {
+    margin-left: 0;
+  }
+  .project-skill-container {
+    width: 100%;
+  }
+  .project-skill {
+    width: 35px;
+  }
+  .project-card:hover .project-number {
+    display: none;
+  }
+  .project-card:hover .project-content {
+    scale: 0.55;
+  }
+}
